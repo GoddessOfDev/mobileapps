@@ -3,7 +3,7 @@
 A simple website for the Gamestack iOS App.
 <br/>
 <a href="https://olegreimers-mobilestack.web.app/"> Demo site </a>
-<tr/>
+<br/>
 ![Site preview](/public/site-preview.png)
 
 ## Install & run
