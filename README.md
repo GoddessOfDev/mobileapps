@@ -1,7 +1,9 @@
 # Gamestack App Website
 
 A simple website for the Gamestack iOS App.
-<a href="https://olegreimers-mobilestack.web.app/"> Demo </a>
+<br/>
+<a href="https://olegreimers-mobilestack.web.app/"> Demo site </a>
+<tr/>
 ![Site preview](/public/site-preview.png)
 
 ## Install & run
