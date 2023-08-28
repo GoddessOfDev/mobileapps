@@ -27,7 +27,6 @@
     "build": "react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test --env=jsdom",
-    "deploy": "aws s3 sync --delete build/ s3://hamish-portfolio-gamestack",
     "eject": "react-scripts eject"
   },
   "reactSnap": {
