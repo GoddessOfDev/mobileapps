@@ -12,21 +12,6 @@ const FooterWrapper = styled.footer`
   margin: 20px 0;
 `;
 
-const FooterRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex: 1 0 auto;
-  position: relative;
-  align-items: flex-end;
-
-  @media (max-width: 600px) {
-    flex-direction: column;
-    height: auto;
-    align-items: center;
-    justify-content: flex-end;
-  }
-`;
 
 const FooterLink = styled(Link)`
   margin: 15px;
@@ -43,7 +28,5 @@ const FooterLink = styled(Link)`
       props.faded ? props.theme.colorText(0.4) : props.theme.colorText(0.6)};
   }
 `;
-
-const FooterAnchor = FooterLink.withComponent("a");
 
 export default Footer;
