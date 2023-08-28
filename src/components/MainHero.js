@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import styled, { withTheme } from "styled-components/macro";
 import Logo from "../components/Logo";
-import { AnchorButton } from "../components/Button";
 import Footer from "../components/Footer";
 import Input from "../components/Input";
 
-const actionUrl =
-  "https://docs.google.com/forms/d/e/1FAIpQLSf-8LaHUz8ftPvpgPeZQiaQVLcyw2caXF_57DGAvFJhClDBKw/viewform?usp=sf_link";
 
 function MainHero(props) {
   const { appName, title, description, theme, ...rest } = props;
@@ -253,13 +250,6 @@ const MainHeroActions = styled.div`
   }
 `;
 
-const MainHeroButton = styled(AnchorButton)`
-  max-width: fit-content;
-
-  @media (max-width: ${(props) => props.theme.tablet}) {
-    justify-self: center;
-  }
-`;
 
 const MainHeroFooter = styled(Footer)`
   position: absolute;
