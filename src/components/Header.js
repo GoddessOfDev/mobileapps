@@ -2,10 +2,6 @@ import React from "react";
 import styled from "styled-components/macro";
 import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
-import { AnchorButton } from "../components/Button";
-
-const betaUrl =
-  "https://docs.google.com/forms/d/e/1FAIpQLSf-8LaHUz8ftPvpgPeZQiaQVLcyw2caXF_57DGAvFJhClDBKw/viewform?usp=sf_link";
 
 const Header = ({ transparent, white, fixed = true, status }) => (
   <React.Fragment>
@@ -85,8 +81,5 @@ const HeaderLogoText = styled.span`
   }
 `;
 
-const HeaderButton = styled(AnchorButton)`
-  margin-left: auto;
-`;
 
 export default Header;
