@@ -6,12 +6,12 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header';
 import Theme from './utils/Theme';
 
-const Home = lazy(() => import('./screens/Home'));
-const Auth = lazy(() => import('./screens/Auth'));
-const FourOhFour = lazy(() => import('./screens/FourOhFour'));
-const Support = lazy(() => import('./screens/Support'));
-const Terms = lazy(() => import('./screens/Terms'));
-const Privacy = lazy(() => import('./screens/Privacy'));
+const Home = lazy(() => import('./Screens/Home'));
+const Auth = lazy(() => import('./Screens/Auth'));
+const FourOhFour = lazy(() => import('./Screens/FourOhFour'));
+const Support = lazy(() => import('./Screens/Support'));
+const Terms = lazy(() => import('./Screens/Terms'));
+const Privacy = lazy(() => import('./Screens/Privacy'));
 
 export const AppContext = createContext();
 
