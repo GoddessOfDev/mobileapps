@@ -29,7 +29,7 @@ function App() {
       <ThemeProvider theme={Theme}>
         <React.Fragment>
           <Helmet>
-            <title>Gamestack | Track your games</title>
+            <title>My mobile apps</title>
             <meta
               name="description"
               content="Gamestack is a todo list app for your game collection. Sync your Steam and Blizzard game libraries, track your progress, finish your games."

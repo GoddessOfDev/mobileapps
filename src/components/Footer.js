@@ -1,18 +1,9 @@
-import React from 'react';
-import styled from 'styled-components/macro';
-import { Link } from 'react-router-dom';
+import React from "react";
+import styled from "styled-components/macro";
+import { Link } from "react-router-dom";
 
-const Footer = props => (
-  <FooterWrapper className={props.className}>
-    <FooterRow>
-      <FooterLink to="/support">Support</FooterLink>
-      <FooterAnchor href="mailto:contact@gamestackapp.com">Contact</FooterAnchor>
-      <FooterLink to="/terms">Terms</FooterLink>
-      <FooterAnchor faded target="_blank" rel="noopener noreferrer" href="https://hamishw.com">
-        {`© ${new Date().getFullYear()} Hamish Williams`}
-      </FooterAnchor>
-    </FooterRow>
-  </FooterWrapper>
+const Footer = (props) => (
+  <FooterWrapper className={props.className}></FooterWrapper>
 );
 
 const FooterWrapper = styled.footer`
@@ -44,17 +35,15 @@ const FooterLink = styled(Link)`
   transition: all 0.3s ease;
   text-decoration: underline;
   text-decoration-color: transparent;
-  color: ${props => props.faded
-    ? props.theme.colorText(0.5)
-    : props.theme.colorText(0.8)};
+  color: ${(props) =>
+    props.faded ? props.theme.colorText(0.5) : props.theme.colorText(0.8)};
 
   &:hover {
-    text-decoration-color: ${props => props.faded
-    ? props.theme.colorText(0.4)
-    : props.theme.colorText(0.6)};
+    text-decoration-color: ${(props) =>
+      props.faded ? props.theme.colorText(0.4) : props.theme.colorText(0.6)};
   }
 `;
 
-const FooterAnchor = FooterLink.withComponent('a');
+const FooterAnchor = FooterLink.withComponent("a");
 
 export default Footer;

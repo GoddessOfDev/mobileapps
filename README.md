@@ -1,8 +1,8 @@
-# Gamestack App Website
+# My Mobile Apps Website
 
-A simple website for the Gamestack iOS App.
+A simple website for my mobile Apps.
 <br/>
-<a href="https://olegreimers-mobilestack.web.app/"> Demo site </a>
+<a href="https://mobilestack-preview.netlify.app/"> Demo site </a>
 <br/>
 ![Site preview](/public/site-preview.png)
 
