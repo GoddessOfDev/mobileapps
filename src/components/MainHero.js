@@ -31,7 +31,7 @@ function MainHero(props) {
             />
           )}
           <a
-            href="https://olegreimers.netlify.app/#project-2"
+            href="https://byteslinger.netlify.app/#project-2"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -44,7 +44,7 @@ function MainHero(props) {
             You can see these apps in my github. These are repositories.
           </p>
           <a
-            href="https://github.com/olegreimers/9-Animator"
+            href="https://github.com/byteslinger00/9-Animator"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -54,7 +54,7 @@ function MainHero(props) {
             9 Animator
           </a>
           <a
-            href="https://github.com/olegreimers/DatingChat"
+            href="https://github.com/byteslinger00/DatingChat"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -64,7 +64,7 @@ function MainHero(props) {
             Chat - Dating app
           </a>
           <a
-            href="https://github.com/olegreimers/food-ordering-swiftUI"
+            href="https://github.com/byteslinger00/food-ordering-swiftUI"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -74,7 +74,7 @@ function MainHero(props) {
             Food Ordering app
           </a>
           <a
-            href="https://github.com/olegreimers/food-delivery-swift"
+            href="https://github.com/byteslinger00/food-delivery-swift"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -84,7 +84,7 @@ function MainHero(props) {
             Food delivery
           </a>
           <a
-            href="https://github.com/olegreimers/flutter-realtime-detection"
+            href="https://github.com/byteslinger00/flutter-realtime-detection"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -94,7 +94,7 @@ function MainHero(props) {
             Realtime Person Detection
           </a>
           <a
-            href="https://github.com/olegreimers/fitness-app-flutter"
+            href="https://github.com/byteslinger00/fitness-app-flutter"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -104,7 +104,7 @@ function MainHero(props) {
             Fitness app
           </a>
           <a
-            href="https://github.com/olegreimers/movieapp-ReactNative"
+            href="https://github.com/byteslinger00/movieapp-ReactNative"
             style={{
               fontSize: "20px",
               textDecoration: "none",
@@ -114,7 +114,7 @@ function MainHero(props) {
             Movie app
           </a>
           <a
-            href="https://github.com/olegreimers/fashion-app"
+            href="https://github.com/byteslinger00/fashion-app"
             style={{
               fontSize: "20px",
               textDecoration: "none",
