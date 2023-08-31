@@ -46,7 +46,7 @@ function Home({ theme }) {
         appName="My mobile apps"
         title="Here's my apps..."
         description={`These apps are built by Flutter, Swift, React Native, Java and Kotlin. `}
-      />
+      /> 
       <PreviewSection>
         <HomePhoneContainer
           label="A video showing the process of completing a game in the app and making progress toward a monthly goal."
