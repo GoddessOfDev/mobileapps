@@ -43,11 +43,10 @@ function Home({ theme }) {
   return (
     <HomeContainer>
       <HomeHero
-        appName="Gamestack"
-        title="Track your games"
+        appName="Mobile apps"
+        title="Here's my apps..."
         description={
-          `Sync your Steam & Blizzard game libraries.
-          Track your progress, achievements, and time played.`
+          `These apps are built by Flutter, Swift, React Native, Java and Kotlin.`
         }
       />
       <PreviewSection>
